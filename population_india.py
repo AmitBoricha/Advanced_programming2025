@@ -143,6 +143,7 @@ def test_data_loading():
     except Exception as e:
         assert False, f"Data loading failed: {e}"
 
+
 def test_column_renaming():
     expected_columns = set(column_cleanup.values())
     actual_columns = set(data.columns)
