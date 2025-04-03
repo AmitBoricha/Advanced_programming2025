@@ -128,12 +128,12 @@ state_dropdown.set("Select a State")
 tk.Button(root, text="Show Data", command=plot_data, font=("Arial", 12), bg="#2196F3", fg="white", padx=10,
           pady=5).pack(pady=20)
 
+
 # Frame for Matplotlib Plots
 plot_frame = tk.Frame(root, bg="#f0f0f0")
 plot_frame.pack(fill=tk.BOTH, expand=True, padx=20, pady=20)
 
 root.mainloop()
-
 
 # Unit Testing
 def test_data_loading():
